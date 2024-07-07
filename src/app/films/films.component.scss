@@ -1,0 +1,81 @@
+.grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    /* Default to one column for small screens */
+    width: 95%;
+    /* Ensure the grid takes up full width */
+}
+
+/* For screens wider than 600px, show two columns */
+@media (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For screens wider than 900px, show three columns */
+@media (min-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+mat-card {
+    color: white;
+    width: 100%;
+    /* Make each card take up full width of its grid cell */
+    box-sizing: border-box;
+    /* Include padding in the width calculation */
+    height: 100%;
+    /* Make all cards in a row the same height */
+    display: flex;
+    flex-direction: column;
+}
+
+mat-card-content {
+    flex-grow: 1;
+    /* Allow content to grow and push the action buttons to the bottom */
+}
+
+mat-card-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+mat-card-content ul li {
+    margin-bottom: 5px;
+}
+
+mat-card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+mat-card-subtitle {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button.mat-button {
+    color: white;
+    border: 1px solid white;
+}
+
+mat-divider {
+    margin: 8px 0;
+}
+
+.chip-header {
+    font-weight: bold;
+}
+
+.details-link {
+    color: var(--electric-violet);
+    text-decoration: none;
+}
+
+/* Remove default body margin */
+body {
+    margin: 0;
+}

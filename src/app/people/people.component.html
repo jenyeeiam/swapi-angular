@@ -1,1 +1,11 @@
-<p>people works!</p>
+<h1>Characters</h1>
+<div class="grid-container">
+    <mat-card *ngFor="let person of people$ | async">
+        <mat-card-header>
+            <mat-card-title>{{ person.name }}</mat-card-title>
+        </mat-card-header> 
+        <mat-card-actions>
+            <button mat-button [routerLink]="['/people', person.uid]">View Details</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
