@@ -39,12 +39,10 @@ export class FilmsComponent implements OnInit, OnDestroy {
 
     const vehicles$ = this.cachingService.fetchData(vehiclesUrl).pipe(
       map((data: Response) => data.results),
-      tap(vehicles => console.log({ vehicles })),
     );
 
     const people$ = this.cachingService.fetchData(peopleUrl).pipe(
       map((data: Response) => data.results),
-      tap(people => console.log({ people })),
     );
 
     return forkJoin([vehicles$, people$]).pipe(
@@ -60,8 +58,7 @@ export class FilmsComponent implements OnInit, OnDestroy {
     const url = 'https://swapi.tech/api/films/';
     this.films$ = this.cachingService.fetchData(url).pipe(
       map((data: FilmResponse) => data.result),
-      tap(films => console.log({ films })),
-      map(films => films.map(film => this.mapFilmCharactersAndVehicles(film)))
+      map(films => films.map(film => this.mapFilmCharactersAndVehicles(film))),
     );
   }
 
@@ -70,7 +67,14 @@ export class FilmsComponent implements OnInit, OnDestroy {
       ...film,
       properties: {
         characters: film.properties.characters.map((url: string) => this.peopleMap.get(url) as People),
-        vehicles: film.properties.vehicles.map((url: string) => this.vehiclesMap.get(url) as Vehicle)
+        vehicles: film.properties.vehicles.map((url: string) => this.vehiclesMap.get(url) as Vehicle),
+        title: film.properties.title,
+        episode_id: film.properties.episode_id,
+        opening_crawl: film.properties.opening_crawl,
+        director: film.properties.director,
+        producer: film.properties.producer,
+        release_date: film.properties.release_date,
+        url: film.properties.url
       }
     };
     return newFilm as Film;

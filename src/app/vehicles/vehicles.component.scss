@@ -1,0 +1,44 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+mat-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+mat-card-actions {
+    margin-top: auto;
+}
+
+@media (min-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+mat-card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+mat-card-subtitle {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button.mat-button {
+    color: white;
+    border: 1px solid white;
+}
+
+[mat-card-avatar] {
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

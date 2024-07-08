@@ -1,1 +1,12 @@
-<p>vehicles works!</p>
+<h3>Vehicles</h3>
+<div class="grid-container">
+    <mat-card *ngFor="let vehicle of vehicles$ | async">
+        <mat-card-header>
+            <div mat-card-avatar [style.background-image]="'url(' + getAvatarUrl(vehicle.uid) + ')'"></div>
+            <mat-card-title>{{ vehicle.name }}</mat-card-title>
+        </mat-card-header> 
+        <mat-card-actions>
+            <button mat-button [routerLink]="['/vehicles', vehicle.uid]">View Details</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

@@ -1,2 +1,3 @@
-export * from './film.model'
-export * from './response.model'
+export * from './film.model';
+export * from './detailed.model';
+export * from './response.model';

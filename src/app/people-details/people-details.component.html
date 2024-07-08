@@ -1,1 +1,51 @@
-<p>people-details works!</p>
+<ng-container *ngIf="person$ | async as person">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>{{ person.properties.name }}</mat-card-title>
+            <mat-card-subtitle>{{ person.description }}</mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+            <div class="detail">
+                <span class="detail-title">Height:</span>
+                <span class="detail-line">{{ person.properties.height }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Mass:</span>
+                <span class="detail-line">{{ person.properties.mass }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Hair Color:</span>
+                <span class="detail-line">{{ person.properties.hair_color }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Skin Color:</span>
+                <span class="detail-line">{{ person.properties.skin_color }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Eye Color:</span>
+                <span class="detail-line">{{ person.properties.eye_color }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Birth Year:</span>
+                <span class="detail-line">{{ person.properties.birth_year }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Gender:</span>
+                <span class="detail-line">{{ person.properties.gender }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Home World:</span>
+                <span class="detail-line">{{ person.properties.homeworld }}</span>
+            </div>
+            <mat-divider></mat-divider>
+        </mat-card-content>
+    </mat-card>
+</ng-container>

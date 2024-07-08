@@ -1,7 +1,8 @@
-<h1>Characters</h1>
+<h3>Characters</h3>
 <div class="grid-container">
     <mat-card *ngFor="let person of people$ | async">
         <mat-card-header>
+            <div mat-card-avatar [style.background-image]="'url(' + getAvatarUrl(person.uid) + ')'"></div>
             <mat-card-title>{{ person.name }}</mat-card-title>
         </mat-card-header> 
         <mat-card-actions>

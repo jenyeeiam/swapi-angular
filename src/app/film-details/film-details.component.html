@@ -1,1 +1,111 @@
-<p>film-details works!</p>
+<ng-container *ngIf="film$ | async as film">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>{{ film.properties.title }}</mat-card-title>
+            <mat-card-subtitle>{{ film.description }}</mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content>
+            <div class="detail">
+                <span class="detail-title">Director:</span>
+                <span class="detail-line">{{ film.properties.director }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Producer:</span>
+                <span class="detail-line">{{ film.properties.producer }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Episode ID:</span>
+                <span class="detail-line">{{ film.properties.episode_id }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Release Date:</span>
+                <span class="detail-line">{{ film.properties.release_date }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Opening Crawl:</span>
+                <span class="detail-line">{{ film.properties.opening_crawl }}</span>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Characters:</span>
+                <mat-chip-listbox>
+                    <mat-chip *ngFor="let character of film.properties.characters" class="chip">
+                        <a class="details-link" [href]="character" [routerLink]="['/people', character.uid]">{{
+                            character.name }}</a>
+                    </mat-chip>
+                </mat-chip-listbox>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Vehicles:</span>
+                <mat-chip-listbox>
+                    <mat-chip *ngFor="let vehicle of film.properties.vehicles" class="chip">
+                        <a class="details-link" [href]="vehicle" [routerLink]="['/vehicle', vehicle.uid]">{{
+                            vehicle.name }}</a>
+                    </mat-chip>
+                </mat-chip-listbox>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Planets:</span>
+                <mat-chip-listbox>
+                    <mat-chip *ngFor="let planet of film.properties.planets" class="chip">
+                        <span>Planet {{planet.split('/').pop()}}</span>
+                        <a href="{{planet}}" target="_blank" matChipTrailingIcon>
+                            <mat-icon class="link-icon">link</mat-icon>
+                        </a>
+                    </mat-chip>
+                </mat-chip-listbox>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Starships:</span>
+                <mat-chip-listbox>
+                    <mat-chip *ngFor="let ship of film.properties.starships" class="chip">
+                        <span>Starship {{ship.split('/').pop()}}</span>
+                        <a href="{{ship}}" target="_blank" matChipTrailingIcon>
+                            <mat-icon class="link-icon">link</mat-icon>
+                        </a>
+                    </mat-chip>
+                </mat-chip-listbox>
+            </div>
+            <mat-divider></mat-divider>
+            <div class="detail">
+                <span class="detail-title">Species:</span>
+                <mat-chip-listbox>
+                    <mat-chip *ngFor="let specie of film.properties.species" class="chip">
+                        <span>Species {{specie.split('/').pop()}}</span>
+                        <a href="{{specie}}" target="_blank" matChipTrailingIcon>
+                            <mat-icon class="link-icon">link</mat-icon>
+                        </a>
+                    </mat-chip>
+                </mat-chip-listbox>
+            </div>
+            <mat-divider></mat-divider>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>Additional Information</mat-panel-title>
+                </mat-expansion-panel-header>
+                <div class="detail">
+                    <span class="detail-title">Created:</span>
+                    <span class="detail-line">{{ film.properties.created | date }}</span>
+                </div>
+                <mat-divider></mat-divider>
+                <div class="detail">
+                    <span class="detail-title">Edited:</span>
+                    <span class="detail-line">{{ film.properties.edited | date }}</span>
+                </div>
+                <mat-divider></mat-divider>
+                <div class="detail">
+                    <span class="detail-title">URL:</span>
+                    <span class="detail-line">{{ film.properties.url }}</span>
+                </div>
+            </mat-expansion-panel>
+        </mat-card-content>
+    </mat-card>
+</ng-container>

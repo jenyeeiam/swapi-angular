@@ -25,4 +25,8 @@ export class PeopleComponent implements OnInit {
       map((data: any) => data.results),
     );
   }
+
+  getAvatarUrl(id: number): string {
+    return `https://robohash.org/${id}?set=set2&size=50x50`;
+  }
 }

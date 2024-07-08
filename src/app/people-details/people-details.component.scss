@@ -1,0 +1,48 @@
+mat-card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+mat-card-subtitle {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+}
+
+.detail-title {
+    color: white;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.detail-line {
+    flex: 1 1 auto;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mat-chip {
+    margin-right: 4px;
+}
+
+.details-link {
+    text-decoration: none;
+    color: var(--electric-violet);
+}
+
+.mat-card {
+    margin: 16px;
+}
+
+.mat-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-icon:hover {
+    cursor: pointer;
+}
