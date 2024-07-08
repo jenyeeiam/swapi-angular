@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
-import { tap } from 'rxjs/operators';
+import { Observable, of, throwError } from 'rxjs';
+import { tap, retry, mergeMap, delay, take, debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +9,7 @@ import { tap } from 'rxjs/operators';
 export class CachingService {
   private cache = new Map<string, any>();
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   fetchData(url: string): Observable<any> {
     if (this.cache.has(url)) {
@@ -18,7 +18,17 @@ export class CachingService {
     } else {
       // Fetch data from API and cache it
       return this.http.get<any>(url).pipe(
-        tap(data => this.cache.set(url, data))
+        debounceTime(300), // Waits 300ms after each request trigger
+        distinctUntilChanged(), // Only proceeds if the URL is different from the last request
+        tap(data => this.cache.set(url, data)),
+        retry({
+          count: 5, // Number of retry attempts
+          delay: (error, retryCount) => {
+            // Exponential backoff: delay increases with each retry attempt
+            return of(error).pipe(delay(1000 * Math.pow(2, retryCount)));
+          }
+        }),
+        mergeMap(response => response ? of(response) : throwError('Failed to fetch data after retries'))
       );
     }
   }
