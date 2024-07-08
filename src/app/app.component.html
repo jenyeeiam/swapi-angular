@@ -1,10 +1,23 @@
 <mat-toolbar color="primary">
   <span>Jen Yee's Star Wars App</span>
   <span class="spacer"></span>
-  <a mat-button routerLink="/films" routerLinkActive="active-link">Films</a>
-  <a mat-button routerLink="/people" routerLinkActive="active-link">People</a>
-  <a mat-button routerLink="/vehicles" routerLinkActive="active-link">Vehicles</a>
+  <div class="desktop-menu">
+    <a mat-button routerLink="/films" routerLinkActive="active-link">Films</a>
+    <a mat-button routerLink="/people" routerLinkActive="active-link">People</a>
+    <a mat-button routerLink="/vehicles" routerLinkActive="active-link">Vehicles</a>
+  </div>
+  <div class="mobile-menu">
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
 </mat-toolbar>
+
+<mat-menu #menu="matMenu" xPosition="before">
+  <button mat-menu-item routerLink="/films" routerLinkActive="active-link">Films</button>
+  <button mat-menu-item routerLink="/people" routerLinkActive="active-link">People</button>
+  <button mat-menu-item routerLink="/vehicles" routerLinkActive="active-link">Vehicles</button>
+</mat-menu>
 
 <div class="content">
   <router-outlet></router-outlet>

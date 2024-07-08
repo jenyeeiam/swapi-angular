@@ -1,0 +1,1642 @@
+[
+    {
+        "properties": {
+            "height": "172",
+            "mass": "77",
+            "hair_color": "blond",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "19BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Luke Skywalker",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/1"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be42",
+        "uid": "1",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "167",
+            "mass": "75",
+            "hair_color": "n/a",
+            "skin_color": "gold",
+            "eye_color": "yellow",
+            "birth_year": "112BBY",
+            "gender": "n/a",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "C-3PO",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/2"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be43",
+        "uid": "2",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "96",
+            "mass": "32",
+            "hair_color": "n/a",
+            "skin_color": "white, blue",
+            "eye_color": "red",
+            "birth_year": "33BBY",
+            "gender": "n/a",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "R2-D2",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/3"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be44",
+        "uid": "3",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "202",
+            "mass": "136",
+            "hair_color": "none",
+            "skin_color": "white",
+            "eye_color": "yellow",
+            "birth_year": "41.9BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Darth Vader",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/4"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be45",
+        "uid": "4",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "150",
+            "mass": "49",
+            "hair_color": "brown",
+            "skin_color": "light",
+            "eye_color": "brown",
+            "birth_year": "19BBY",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Leia Organa",
+            "homeworld": "https://www.swapi.tech/api/planets/2",
+            "url": "https://www.swapi.tech/api/people/5"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be46",
+        "uid": "5",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "178",
+            "mass": "120",
+            "hair_color": "brown, grey",
+            "skin_color": "light",
+            "eye_color": "blue",
+            "birth_year": "52BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Owen Lars",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/6"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be47",
+        "uid": "6",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "165",
+            "mass": "75",
+            "hair_color": "brown",
+            "skin_color": "light",
+            "eye_color": "blue",
+            "birth_year": "47BBY",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Beru Whitesun lars",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/7"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be48",
+        "uid": "7",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "97",
+            "mass": "32",
+            "hair_color": "n/a",
+            "skin_color": "white, red",
+            "eye_color": "red",
+            "birth_year": "unknown",
+            "gender": "n/a",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "R5-D4",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/8"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be49",
+        "uid": "8",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "183",
+            "mass": "84",
+            "hair_color": "black",
+            "skin_color": "light",
+            "eye_color": "brown",
+            "birth_year": "24BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Biggs Darklighter",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/9"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be4a",
+        "uid": "9",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "182",
+            "mass": "77",
+            "hair_color": "auburn, white",
+            "skin_color": "fair",
+            "eye_color": "blue-gray",
+            "birth_year": "57BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Obi-Wan Kenobi",
+            "homeworld": "https://www.swapi.tech/api/planets/20",
+            "url": "https://www.swapi.tech/api/people/10"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be4b",
+        "uid": "10",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "188",
+            "mass": "84",
+            "hair_color": "blond",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "41.9BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Anakin Skywalker",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/11"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be4c",
+        "uid": "11",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "180",
+            "mass": "unknown",
+            "hair_color": "auburn, grey",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "64BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Wilhuff Tarkin",
+            "homeworld": "https://www.swapi.tech/api/planets/21",
+            "url": "https://www.swapi.tech/api/people/12"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be4d",
+        "uid": "12",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "228",
+            "mass": "112",
+            "hair_color": "brown",
+            "skin_color": "unknown",
+            "eye_color": "blue",
+            "birth_year": "200BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Chewbacca",
+            "homeworld": "https://www.swapi.tech/api/planets/14",
+            "url": "https://www.swapi.tech/api/people/13"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be4e",
+        "uid": "13",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "180",
+            "mass": "80",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "brown",
+            "birth_year": "29BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Han Solo",
+            "homeworld": "https://www.swapi.tech/api/planets/22",
+            "url": "https://www.swapi.tech/api/people/14"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be4f",
+        "uid": "14",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "173",
+            "mass": "74",
+            "hair_color": "n/a",
+            "skin_color": "green",
+            "eye_color": "black",
+            "birth_year": "44BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Greedo",
+            "homeworld": "https://www.swapi.tech/api/planets/23",
+            "url": "https://www.swapi.tech/api/people/15"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36eee9fd7000499be50",
+        "uid": "15",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "175",
+            "mass": "1,358",
+            "hair_color": "n/a",
+            "skin_color": "green-tan, brown",
+            "eye_color": "orange",
+            "birth_year": "600BBY",
+            "gender": "hermaphrodite",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Jabba Desilijic Tiure",
+            "homeworld": "https://www.swapi.tech/api/planets/24",
+            "url": "https://www.swapi.tech/api/people/16"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be51",
+        "uid": "16",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "170",
+            "mass": "77",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "hazel",
+            "birth_year": "21BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Wedge Antilles",
+            "homeworld": "https://www.swapi.tech/api/planets/22",
+            "url": "https://www.swapi.tech/api/people/18"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be52",
+        "uid": "18",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "180",
+            "mass": "110",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Jek Tono Porkins",
+            "homeworld": "https://www.swapi.tech/api/planets/26",
+            "url": "https://www.swapi.tech/api/people/19"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be53",
+        "uid": "19",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "66",
+            "mass": "17",
+            "hair_color": "white",
+            "skin_color": "green",
+            "eye_color": "brown",
+            "birth_year": "896BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Yoda",
+            "homeworld": "https://www.swapi.tech/api/planets/28",
+            "url": "https://www.swapi.tech/api/people/20"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be54",
+        "uid": "20",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "170",
+            "mass": "75",
+            "hair_color": "grey",
+            "skin_color": "pale",
+            "eye_color": "yellow",
+            "birth_year": "82BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Palpatine",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/21"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be55",
+        "uid": "21",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "183",
+            "mass": "78.2",
+            "hair_color": "black",
+            "skin_color": "fair",
+            "eye_color": "brown",
+            "birth_year": "31.5BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Boba Fett",
+            "homeworld": "https://www.swapi.tech/api/planets/10",
+            "url": "https://www.swapi.tech/api/people/22"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be56",
+        "uid": "22",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "200",
+            "mass": "140",
+            "hair_color": "none",
+            "skin_color": "metal",
+            "eye_color": "red",
+            "birth_year": "15BBY",
+            "gender": "none",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "IG-88",
+            "homeworld": "https://www.swapi.tech/api/planets/28",
+            "url": "https://www.swapi.tech/api/people/23"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be57",
+        "uid": "23",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "190",
+            "mass": "113",
+            "hair_color": "none",
+            "skin_color": "green",
+            "eye_color": "red",
+            "birth_year": "53BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Bossk",
+            "homeworld": "https://www.swapi.tech/api/planets/29",
+            "url": "https://www.swapi.tech/api/people/24"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be58",
+        "uid": "24",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "177",
+            "mass": "79",
+            "hair_color": "black",
+            "skin_color": "dark",
+            "eye_color": "brown",
+            "birth_year": "31BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Lando Calrissian",
+            "homeworld": "https://www.swapi.tech/api/planets/30",
+            "url": "https://www.swapi.tech/api/people/25"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be59",
+        "uid": "25",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "175",
+            "mass": "79",
+            "hair_color": "none",
+            "skin_color": "light",
+            "eye_color": "blue",
+            "birth_year": "37BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Lobot",
+            "homeworld": "https://www.swapi.tech/api/planets/6",
+            "url": "https://www.swapi.tech/api/people/26"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be5a",
+        "uid": "26",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "180",
+            "mass": "83",
+            "hair_color": "none",
+            "skin_color": "brown mottle",
+            "eye_color": "orange",
+            "birth_year": "41BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Ackbar",
+            "homeworld": "https://www.swapi.tech/api/planets/31",
+            "url": "https://www.swapi.tech/api/people/27"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be5b",
+        "uid": "27",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "150",
+            "mass": "unknown",
+            "hair_color": "auburn",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "48BBY",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Mon Mothma",
+            "homeworld": "https://www.swapi.tech/api/planets/32",
+            "url": "https://www.swapi.tech/api/people/28"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be5c",
+        "uid": "28",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "unknown",
+            "mass": "unknown",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "brown",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Arvel Crynyd",
+            "homeworld": "https://www.swapi.tech/api/planets/28",
+            "url": "https://www.swapi.tech/api/people/29"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be5d",
+        "uid": "29",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "88",
+            "mass": "20",
+            "hair_color": "brown",
+            "skin_color": "brown",
+            "eye_color": "brown",
+            "birth_year": "8BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Wicket Systri Warrick",
+            "homeworld": "https://www.swapi.tech/api/planets/7",
+            "url": "https://www.swapi.tech/api/people/30"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be5e",
+        "uid": "30",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "160",
+            "mass": "68",
+            "hair_color": "none",
+            "skin_color": "grey",
+            "eye_color": "black",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Nien Nunb",
+            "homeworld": "https://www.swapi.tech/api/planets/33",
+            "url": "https://www.swapi.tech/api/people/31"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be5f",
+        "uid": "31",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "193",
+            "mass": "89",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "92BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Qui-Gon Jinn",
+            "homeworld": "https://www.swapi.tech/api/planets/28",
+            "url": "https://www.swapi.tech/api/people/32"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be60",
+        "uid": "32",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "191",
+            "mass": "90",
+            "hair_color": "none",
+            "skin_color": "mottled green",
+            "eye_color": "red",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Nute Gunray",
+            "homeworld": "https://www.swapi.tech/api/planets/18",
+            "url": "https://www.swapi.tech/api/people/33"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be61",
+        "uid": "33",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "170",
+            "mass": "unknown",
+            "hair_color": "blond",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "91BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Finis Valorum",
+            "homeworld": "https://www.swapi.tech/api/planets/9",
+            "url": "https://www.swapi.tech/api/people/34"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be62",
+        "uid": "34",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "185",
+            "mass": "45",
+            "hair_color": "brown",
+            "skin_color": "light",
+            "eye_color": "brown",
+            "birth_year": "46BBY",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Padm\u00e9 Amidala",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/35"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be63",
+        "uid": "35",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "196",
+            "mass": "66",
+            "hair_color": "none",
+            "skin_color": "orange",
+            "eye_color": "orange",
+            "birth_year": "52BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Jar Jar Binks",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/36"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be64",
+        "uid": "36",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "224",
+            "mass": "82",
+            "hair_color": "none",
+            "skin_color": "grey",
+            "eye_color": "orange",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Roos Tarpals",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/37"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be65",
+        "uid": "37",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "206",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "green",
+            "eye_color": "orange",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Rugor Nass",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/38"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be66",
+        "uid": "38",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "183",
+            "mass": "unknown",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Ric Oli\u00e9",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/39"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be67",
+        "uid": "39",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "137",
+            "mass": "unknown",
+            "hair_color": "black",
+            "skin_color": "blue, grey",
+            "eye_color": "yellow",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Watto",
+            "homeworld": "https://www.swapi.tech/api/planets/34",
+            "url": "https://www.swapi.tech/api/people/40"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be68",
+        "uid": "40",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "112",
+            "mass": "40",
+            "hair_color": "none",
+            "skin_color": "grey, red",
+            "eye_color": "orange",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Sebulba",
+            "homeworld": "https://www.swapi.tech/api/planets/35",
+            "url": "https://www.swapi.tech/api/people/41"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be69",
+        "uid": "41",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "183",
+            "mass": "unknown",
+            "hair_color": "black",
+            "skin_color": "dark",
+            "eye_color": "brown",
+            "birth_year": "62BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Quarsh Panaka",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/42"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be6a",
+        "uid": "42",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "163",
+            "mass": "unknown",
+            "hair_color": "black",
+            "skin_color": "fair",
+            "eye_color": "brown",
+            "birth_year": "72BBY",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Shmi Skywalker",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/43"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be6b",
+        "uid": "43",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "175",
+            "mass": "80",
+            "hair_color": "none",
+            "skin_color": "red",
+            "eye_color": "yellow",
+            "birth_year": "54BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Darth Maul",
+            "homeworld": "https://www.swapi.tech/api/planets/36",
+            "url": "https://www.swapi.tech/api/people/44"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be6c",
+        "uid": "44",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "180",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "pale",
+            "eye_color": "pink",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Bib Fortuna",
+            "homeworld": "https://www.swapi.tech/api/planets/37",
+            "url": "https://www.swapi.tech/api/people/45"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be6d",
+        "uid": "45",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "178",
+            "mass": "55",
+            "hair_color": "none",
+            "skin_color": "blue",
+            "eye_color": "hazel",
+            "birth_year": "48BBY",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Ayla Secura",
+            "homeworld": "https://www.swapi.tech/api/planets/37",
+            "url": "https://www.swapi.tech/api/people/46"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be6e",
+        "uid": "46",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "79",
+            "mass": "15",
+            "hair_color": "none",
+            "skin_color": "grey, blue",
+            "eye_color": "unknown",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Ratts Tyerel",
+            "homeworld": "https://www.swapi.tech/api/planets/38",
+            "url": "https://www.swapi.tech/api/people/47"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be6f",
+        "uid": "47",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "94",
+            "mass": "45",
+            "hair_color": "none",
+            "skin_color": "blue, grey",
+            "eye_color": "yellow",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Dud Bolt",
+            "homeworld": "https://www.swapi.tech/api/planets/39",
+            "url": "https://www.swapi.tech/api/people/48"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be70",
+        "uid": "48",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "122",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "white, blue",
+            "eye_color": "black",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Gasgano",
+            "homeworld": "https://www.swapi.tech/api/planets/40",
+            "url": "https://www.swapi.tech/api/people/49"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be71",
+        "uid": "49",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "163",
+            "mass": "65",
+            "hair_color": "none",
+            "skin_color": "grey, green, yellow",
+            "eye_color": "orange",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Ben Quadinaros",
+            "homeworld": "https://www.swapi.tech/api/planets/41",
+            "url": "https://www.swapi.tech/api/people/50"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be72",
+        "uid": "50",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "188",
+            "mass": "84",
+            "hair_color": "none",
+            "skin_color": "dark",
+            "eye_color": "brown",
+            "birth_year": "72BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Mace Windu",
+            "homeworld": "https://www.swapi.tech/api/planets/42",
+            "url": "https://www.swapi.tech/api/people/51"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be73",
+        "uid": "51",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "198",
+            "mass": "82",
+            "hair_color": "white",
+            "skin_color": "pale",
+            "eye_color": "yellow",
+            "birth_year": "92BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Ki-Adi-Mundi",
+            "homeworld": "https://www.swapi.tech/api/planets/43",
+            "url": "https://www.swapi.tech/api/people/52"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be74",
+        "uid": "52",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "196",
+            "mass": "87",
+            "hair_color": "none",
+            "skin_color": "green",
+            "eye_color": "black",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Kit Fisto",
+            "homeworld": "https://www.swapi.tech/api/planets/44",
+            "url": "https://www.swapi.tech/api/people/53"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be75",
+        "uid": "53",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "171",
+            "mass": "unknown",
+            "hair_color": "black",
+            "skin_color": "brown",
+            "eye_color": "brown",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Eeth Koth",
+            "homeworld": "https://www.swapi.tech/api/planets/45",
+            "url": "https://www.swapi.tech/api/people/54"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be76",
+        "uid": "54",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "184",
+            "mass": "50",
+            "hair_color": "none",
+            "skin_color": "dark",
+            "eye_color": "blue",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Adi Gallia",
+            "homeworld": "https://www.swapi.tech/api/planets/9",
+            "url": "https://www.swapi.tech/api/people/55"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be77",
+        "uid": "55",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "188",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "pale",
+            "eye_color": "orange",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Saesee Tiin",
+            "homeworld": "https://www.swapi.tech/api/planets/47",
+            "url": "https://www.swapi.tech/api/people/56"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be78",
+        "uid": "56",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "264",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "white",
+            "eye_color": "yellow",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Yarael Poof",
+            "homeworld": "https://www.swapi.tech/api/planets/48",
+            "url": "https://www.swapi.tech/api/people/57"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be79",
+        "uid": "57",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "188",
+            "mass": "80",
+            "hair_color": "none",
+            "skin_color": "orange",
+            "eye_color": "black",
+            "birth_year": "22BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Plo Koon",
+            "homeworld": "https://www.swapi.tech/api/planets/49",
+            "url": "https://www.swapi.tech/api/people/58"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be7a",
+        "uid": "58",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "196",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "blue",
+            "eye_color": "blue",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Mas Amedda",
+            "homeworld": "https://www.swapi.tech/api/planets/50",
+            "url": "https://www.swapi.tech/api/people/59"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be7b",
+        "uid": "59",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "185",
+            "mass": "85",
+            "hair_color": "black",
+            "skin_color": "dark",
+            "eye_color": "brown",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Gregar Typho",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/60"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be7c",
+        "uid": "60",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "157",
+            "mass": "unknown",
+            "hair_color": "brown",
+            "skin_color": "light",
+            "eye_color": "brown",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Cord\u00e9",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/61"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be7d",
+        "uid": "61",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "183",
+            "mass": "unknown",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "82BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Cliegg Lars",
+            "homeworld": "https://www.swapi.tech/api/planets/1",
+            "url": "https://www.swapi.tech/api/people/62"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be7e",
+        "uid": "62",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "183",
+            "mass": "80",
+            "hair_color": "none",
+            "skin_color": "green",
+            "eye_color": "yellow",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Poggle the Lesser",
+            "homeworld": "https://www.swapi.tech/api/planets/11",
+            "url": "https://www.swapi.tech/api/people/63"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be7f",
+        "uid": "63",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "170",
+            "mass": "56.2",
+            "hair_color": "black",
+            "skin_color": "yellow",
+            "eye_color": "blue",
+            "birth_year": "58BBY",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Luminara Unduli",
+            "homeworld": "https://www.swapi.tech/api/planets/51",
+            "url": "https://www.swapi.tech/api/people/64"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be80",
+        "uid": "64",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "166",
+            "mass": "50",
+            "hair_color": "black",
+            "skin_color": "yellow",
+            "eye_color": "blue",
+            "birth_year": "40BBY",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Barriss Offee",
+            "homeworld": "https://www.swapi.tech/api/planets/51",
+            "url": "https://www.swapi.tech/api/people/65"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be81",
+        "uid": "65",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "165",
+            "mass": "unknown",
+            "hair_color": "brown",
+            "skin_color": "light",
+            "eye_color": "brown",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Dorm\u00e9",
+            "homeworld": "https://www.swapi.tech/api/planets/8",
+            "url": "https://www.swapi.tech/api/people/66"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be82",
+        "uid": "66",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "193",
+            "mass": "80",
+            "hair_color": "white",
+            "skin_color": "fair",
+            "eye_color": "brown",
+            "birth_year": "102BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Dooku",
+            "homeworld": "https://www.swapi.tech/api/planets/52",
+            "url": "https://www.swapi.tech/api/people/67"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be83",
+        "uid": "67",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "191",
+            "mass": "unknown",
+            "hair_color": "black",
+            "skin_color": "tan",
+            "eye_color": "brown",
+            "birth_year": "67BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Bail Prestor Organa",
+            "homeworld": "https://www.swapi.tech/api/planets/2",
+            "url": "https://www.swapi.tech/api/people/68"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be84",
+        "uid": "68",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "183",
+            "mass": "79",
+            "hair_color": "black",
+            "skin_color": "tan",
+            "eye_color": "brown",
+            "birth_year": "66BBY",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Jango Fett",
+            "homeworld": "https://www.swapi.tech/api/planets/53",
+            "url": "https://www.swapi.tech/api/people/69"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be85",
+        "uid": "69",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "168",
+            "mass": "55",
+            "hair_color": "blonde",
+            "skin_color": "fair, green, yellow",
+            "eye_color": "yellow",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Zam Wesell",
+            "homeworld": "https://www.swapi.tech/api/planets/54",
+            "url": "https://www.swapi.tech/api/people/70"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be86",
+        "uid": "70",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "198",
+            "mass": "102",
+            "hair_color": "none",
+            "skin_color": "brown",
+            "eye_color": "yellow",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Dexter Jettster",
+            "homeworld": "https://www.swapi.tech/api/planets/55",
+            "url": "https://www.swapi.tech/api/people/71"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be87",
+        "uid": "71",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "229",
+            "mass": "88",
+            "hair_color": "none",
+            "skin_color": "grey",
+            "eye_color": "black",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Lama Su",
+            "homeworld": "https://www.swapi.tech/api/planets/10",
+            "url": "https://www.swapi.tech/api/people/72"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be88",
+        "uid": "72",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "213",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "grey",
+            "eye_color": "black",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Taun We",
+            "homeworld": "https://www.swapi.tech/api/planets/10",
+            "url": "https://www.swapi.tech/api/people/73"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be89",
+        "uid": "73",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "167",
+            "mass": "unknown",
+            "hair_color": "white",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Jocasta Nu",
+            "homeworld": "https://www.swapi.tech/api/planets/9",
+            "url": "https://www.swapi.tech/api/people/74"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be8a",
+        "uid": "74",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "96",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "silver, red",
+            "eye_color": "red, blue",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "R4-P17",
+            "homeworld": "https://www.swapi.tech/api/planets/28",
+            "url": "https://www.swapi.tech/api/people/75"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be8b",
+        "uid": "75",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "193",
+            "mass": "48",
+            "hair_color": "none",
+            "skin_color": "green, grey",
+            "eye_color": "unknown",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Wat Tambor",
+            "homeworld": "https://www.swapi.tech/api/planets/56",
+            "url": "https://www.swapi.tech/api/people/76"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be8c",
+        "uid": "76",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "191",
+            "mass": "unknown",
+            "hair_color": "none",
+            "skin_color": "grey",
+            "eye_color": "gold",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "San Hill",
+            "homeworld": "https://www.swapi.tech/api/planets/57",
+            "url": "https://www.swapi.tech/api/people/77"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be8d",
+        "uid": "77",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "178",
+            "mass": "57",
+            "hair_color": "none",
+            "skin_color": "red, blue, white",
+            "eye_color": "black",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Shaak Ti",
+            "homeworld": "https://www.swapi.tech/api/planets/58",
+            "url": "https://www.swapi.tech/api/people/78"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be8e",
+        "uid": "78",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "216",
+            "mass": "159",
+            "hair_color": "none",
+            "skin_color": "brown, white",
+            "eye_color": "green, yellow",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Grievous",
+            "homeworld": "https://www.swapi.tech/api/planets/59",
+            "url": "https://www.swapi.tech/api/people/79"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be8f",
+        "uid": "79",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "234",
+            "mass": "136",
+            "hair_color": "brown",
+            "skin_color": "brown",
+            "eye_color": "blue",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Tarfful",
+            "homeworld": "https://www.swapi.tech/api/planets/14",
+            "url": "https://www.swapi.tech/api/people/80"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be90",
+        "uid": "80",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "188",
+            "mass": "79",
+            "hair_color": "brown",
+            "skin_color": "light",
+            "eye_color": "brown",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Raymus Antilles",
+            "homeworld": "https://www.swapi.tech/api/planets/2",
+            "url": "https://www.swapi.tech/api/people/81"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be91",
+        "uid": "81",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "178",
+            "mass": "48",
+            "hair_color": "none",
+            "skin_color": "pale",
+            "eye_color": "white",
+            "birth_year": "unknown",
+            "gender": "female",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Sly Moore",
+            "homeworld": "https://www.swapi.tech/api/planets/60",
+            "url": "https://www.swapi.tech/api/people/82"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be92",
+        "uid": "82",
+        "__v": 0
+    },
+    {
+        "properties": {
+            "height": "206",
+            "mass": "80",
+            "hair_color": "none",
+            "skin_color": "grey",
+            "eye_color": "black",
+            "birth_year": "unknown",
+            "gender": "male",
+            "created": "2024-07-08T00:02:16.103Z",
+            "edited": "2024-07-08T00:02:16.103Z",
+            "name": "Tion Medon",
+            "homeworld": "https://www.swapi.tech/api/planets/12",
+            "url": "https://www.swapi.tech/api/people/83"
+        },
+        "description": "A person within the Star Wars universe",
+        "_id": "5f63a36fee9fd7000499be93",
+        "uid": "83",
+        "__v": 0
+    }
+]

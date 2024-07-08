@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { FilmsComponent } from './films/films.component';
 
@@ -12,6 +16,9 @@ import { FilmsComponent } from './films/films.component';
     FilmsComponent,
     MatToolbarModule,
     MatButtonModule,
+    MatMenuModule,
+    MatListModule,
+    MatIconModule
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']

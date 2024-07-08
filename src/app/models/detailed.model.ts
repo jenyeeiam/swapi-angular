@@ -11,9 +11,15 @@ export interface DetailedPerson {
         gender: string;
         name: string;
         homeworld: string;
+        created: string;
+        edited: string;
+        url: string;
     },
     description: string;
-    uid: number;
+    films?: Array<{ name: string; uid: string }>;
+    uid: number | string;
+    _id?: string;
+    __v?: number;
 }
 
 export interface DetailedVehicle {
