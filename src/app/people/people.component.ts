@@ -18,7 +18,6 @@ import detailedPeopleData from '../data/detailed_people.json'
 })
 export class PeopleComponent implements OnInit, OnDestroy {
   people$: Observable<People[]> = new Observable<People[]>();
-  peopleMap: Map<string, People> = new Map<string, People>();
   detailedPeople$: BehaviorSubject<DetailedPerson[]> = new BehaviorSubject<DetailedPerson[]>(detailedPeopleData);
   subscriptions: Subscription = new Subscription();
 

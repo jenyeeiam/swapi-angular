@@ -17,7 +17,7 @@ mat-card-actions {
 
 @media (min-width: 1200px) {
     .grid-container {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -41,4 +41,9 @@ button.mat-button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.details-link {
+    color: var(--electric-violet);
+    text-decoration: none;
 }

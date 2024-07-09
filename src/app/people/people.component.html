@@ -8,7 +8,6 @@
                 }}</mat-card-subtitle>
         </mat-card-header>
         <mat-card-content>
-            <p class="chip-header">Films</p>
             <mat-chip-listbox>
                 <mat-chip *ngFor="let film of person.films">
                     <a class="details-link" [href]="film" [routerLink]="['/films', film.uid]">{{ film.name

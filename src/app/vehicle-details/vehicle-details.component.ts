@@ -67,13 +67,16 @@ export class VehicleDetailsComponent implements OnInit, OnDestroy {
       }),
       map((data: any) => data.result),
       map((vehicle: DetailedVehicle) => {
+        const pilots = vehicle.properties.pilots?.map((url: any) => this.peopleMap.get(url) as People);
+        const films = vehicle.properties.films?.map((url: any) => this.filmsMap.get(url) as Film);
+
         const newVehicle = {
           description: vehicle.description,
           uid: vehicle.uid,
           properties: {
             ...vehicle.properties,
-            pilots: vehicle.properties.pilots.map((url: any) => this.peopleMap.get(url) as People),
-            films: vehicle.properties.films.map((url: any) => this.filmsMap.get(url) as Film),
+            pilots,
+            films,
           }
         }
         return newVehicle

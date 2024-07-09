@@ -1,10 +1,20 @@
 <h3>Vehicles</h3>
 <div class="grid-container">
-    <mat-card *ngFor="let vehicle of vehicles$ | async">
+    <mat-card *ngFor="let vehicle of detailedVehicles$ | async">
         <mat-card-header>
             <div mat-card-avatar [style.background-image]="'url(' + getAvatarUrl(vehicle.uid) + ')'"></div>
-            <mat-card-title>{{ vehicle.name }}</mat-card-title>
-        </mat-card-header> 
+            <mat-card-title>{{ vehicle.properties.name }}</mat-card-title>
+            <mat-card-subtitle>Model: {{ vehicle.properties.model }} | Manufacturer:
+                {{vehicle.properties.manufacturer}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-chip-listbox>
+                <mat-chip *ngFor="let film of vehicle.filmsMetaData">
+                    <a class="details-link" [href]="film" [routerLink]="['/films', film.uid]">{{ film.name
+                        }}</a>
+                </mat-chip>
+            </mat-chip-listbox>
+        </mat-card-content>
         <mat-card-actions>
             <button mat-button [routerLink]="['/vehicles', vehicle.uid]">View Details</button>
         </mat-card-actions>
