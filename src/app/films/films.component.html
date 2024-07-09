@@ -1,4 +1,4 @@
-<h3>Films</h3   >
+<h3>Films</h3>
 <div class="grid-container">
     <mat-card *ngFor="let film of films$ | async">
         <mat-card-header>
@@ -14,14 +14,16 @@
             <p class="chip-header">Vehicles</p>
             <mat-chip-listbox>
                 <mat-chip *ngFor="let vehicle of film.properties.vehicles">
-                  <a class="details-link" [href]="vehicle" [routerLink]="['/vehicles', vehicle.uid]">{{ vehicle.name }}</a>
+                    <a class="details-link" [href]="vehicle" [routerLink]="['/vehicles', vehicle.uid]">{{ vehicle.name
+                        }}</a>
                 </mat-chip>
             </mat-chip-listbox>
             <mat-divider></mat-divider>
             <p class="chip-header">People</p>
             <mat-chip-listbox>
-                <mat-chip *ngFor="let person of film.properties.characters">
-                  <a class="details-link" [href]="person" [routerLink]="['/people', person.uid]">{{ person.name }}</a>
+                <mat-chip *ngFor="let person of film.properties.people">
+                    <a class="details-link" [href]="person" [routerLink]="['/people', person.uid]">{{ person.name
+                        }}</a>
                 </mat-chip>
             </mat-chip-listbox>
         </mat-card-content>

@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { CachingService } from '../services/caching.service';
 import { Observable, map, tap, Subscription, BehaviorSubject } from 'rxjs';
-import { People, DetailedPerson, FilmResponse } from '../models'
+import { People, DetailedPerson, FilmResponse, Film } from '../models'
 import { RouterLink } from '@angular/router';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
@@ -33,11 +33,29 @@ export class PeopleComponent implements OnInit, OnDestroy {
     this.subscriptions.add(
       this.cachingService.fetchData(url).pipe(
         map((data: FilmResponse) => data.result),
-        tap(films => {
+        map((films: any[]) => {
+          return films.map(film => {
+            const characterUrls = [...film.properties.characters];
+            const vehicleUrls = [...film.properties.vehicles];
+            //Create a proper Film Object
+            return {
+              ...film,
+              properties: {
+                ...film.properties,
+                vehicleUrls,
+                characterUrls,
+                people: [],
+                vehicles: []
+              }
+            }
+          });
+        }),
+        tap((films: Film[]) => {
           const updatedDetailedPeople = this.detailedPeople$.value.map(character => {
+            // Find the films the character is in
             const characterUrl = character.properties.url;
-            const updatedFilms = films.filter(film =>
-              (film.properties.characters as string[]).includes(characterUrl)
+            const filmsCharacterIsIn = films.filter(film =>
+              (film.properties.characterUrls).includes(characterUrl)
             ).map(film => ({
               name: film.properties.title,
               uid: film.uid.toString()
@@ -45,7 +63,7 @@ export class PeopleComponent implements OnInit, OnDestroy {
 
             return {
               ...character,
-              films: [...(character.films || []), ...updatedFilms]
+              films: [...(character.films || []), ...filmsCharacterIsIn]
             };
           });
 

@@ -66,8 +66,10 @@ export class FilmsComponent implements OnInit, OnDestroy {
     const newFilm = {
       ...film,
       properties: {
-        characters: film.properties.characters.map((url: string) => this.peopleMap.get(url) as People),
+        people: film.properties.characters.map((url: string) => this.peopleMap.get(url) as People),
         vehicles: film.properties.vehicles.map((url: string) => this.vehiclesMap.get(url) as Vehicle),
+        characterUrls: [],
+        vehicleUrls: [],
         title: film.properties.title,
         episode_id: film.properties.episode_id,
         opening_crawl: film.properties.opening_crawl,

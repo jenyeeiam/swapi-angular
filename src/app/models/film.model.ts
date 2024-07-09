@@ -14,8 +14,10 @@ export interface Film {
     uid: number;
     description: string;
     properties: {
-        characters: People[] | string[];
-        vehicles: Vehicle[] | string[];
+        characterUrls: string[];
+        vehicleUrls: string[];
+        people: People[];
+        vehicles: Vehicle[];
         title: string;
         episode_id: number;
         opening_crawl: string;
